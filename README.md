@@ -1,33 +1,78 @@
-<div align="center">  
-    <img height="50" src="./src/assets/codux.svg">  
-    <h1><img height="30" src="./src/assets/vite.svg"> Vite template for Codux</h1>
-</div>
+# Trivia Application
 
-### A Visual IDE for React Projects
+Hello! I've created a fun & intuitive trivia application using React. This project is perfect for anyone who is just getting started with React, looking to improve their JavaScript skills, or wanting to become more comfortable with the framework.
 
-Codux is an all-in-one visual development environment. Whether you’re starting a new app, creating components, or editing an existing project, every visual change you make reflects instantly in the code and vice versa. To learn more about Codux, visit our website - [https://www.codux.com/](https://www.codux.com/)
+## Table of Contents
+- [Overview](#overview)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Running the Project](#running-the-project)
+- [Trivia Questions](#trivia-questions)
+- [Codux](#codux)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-This project was bootstrapped with [`Vite`](https://vitejs.dev).
+## Overview
 
-It includes a single React component to start your project with, a sample [`codux.config.json`](codux.config.json) with preconfigured keys, a `package.json` file to describe the project's packages and dependencies, and a folder and component structure to put everything neatly in its place.
+This trivia application allows users to test their knowledge on various topics through a series of fun and engaging questions. The application is designed to be intuitive and user-friendly, making it a great project for beginners and intermediate developers alike.
 
-- Edit, render and compose apps that make use of **`React`**-based components.
-- Create components with **`TypeScript`**, **`SCSS`** and **`CSS Modules`** support.
-- Visually edit in real-time and in an isolated environment.
+## Technologies Used
 
-### Available Scripts
+- **React**: A JavaScript library for building user interfaces.
+- **Codux**: A tool for CSS and styling to enhance the appearance and responsiveness of the application.
 
-In the project directory, you can run:
+## Installation
 
-### `npm run build`
+To get started with this project, follow these steps:
 
-Build the application in production mode into a folder named `dist`. This folder can be served using any HTTP server.
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/your-username/trivia-app.git
+   ```
+2. **Navigate to the project directory:**
+   ```sh
+   cd trivia-app
+   ```
+3. **Install the necessary dependencies:**
+   ```sh
+   npm install
+   ```
 
-### `npm run dev`
+## Running the Project
 
-Start dev server, aliases: `vite dev`, `vite serve`.\
-Open [http://127.0.0.1:5173/](http://127.0.0.1:5173/) to view it in the browser.
+To run the project locally, use the following command:
+```sh
+npm run dev
+```
 
-### `npm run preview`
+## Trivia Questions
 
-Boots up a local static web server that serves the files from dist at [`http://localhost:4173`](http://localhost:4173) . It's an easy way to check if the production build looks OK in your local environment.
+The trivia questions and correct answers used in the application are stored in a JSON object. Here is how I used it:
+In this JSON object:
+- Each question is an object within the "questions" array.
+- Each question object contains:
+  - A "question" string which is the trivia question.
+  - A "choices" array which holds the possible answers.
+  - A "correctAnswerIdx" which is the index of the correct answer in the "choices" array.
+
+## Codux
+
+The styling for this application is done using Codux, a free tool that simplifies the process of writing CSS. You can learn more about Codux and access it [here](https://codux.hopp.to/techwithtim).
+
+## Contributing
+
+Contributions are welcome! If you have any suggestions, bug reports, or improvements, feel free to create an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+If you have any questions or feedback, please feel free to reach out:
+
+- **Email**: calotateodora74@example.com
+- **Instagram**: [_teo.__.5]([https://github.com/your-username](https://www.instagram.com/_teo.__.5/))
+
+Happy coding! 😊
