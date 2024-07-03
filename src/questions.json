@@ -1,0 +1,34 @@
+{
+    "questions":[
+        {
+            "question": "Who, in 1903, was the first woman to win a Nobel Prize?",
+            "choices": ["Enrico Caruso", "Marie Curie", "Theodore Roosevelt", "Florence Lawrence"],
+            "correctAnswerIdx": 1
+        },
+        {
+            "question": "What year did the Berlin Wall fall?",
+            "choices": ["1990", "1987", "1979", "1989"],
+            "correctAnswerIdx": 3
+        },
+        {
+            "question": " What element does the chemical symbol Au stand for?",
+            "choices": ["Silver", "Gold", "Americium", "Aluminium"],
+            "correctAnswerIdx": 1
+        },
+        {
+            "question": " What was the first book published by Jane Austen?",
+            "choices": ["Emma", "Pride and Prejudice", "Sens and Sensibility", "Persuasion"],
+            "correctAnswerIdx": 2
+        },
+        {
+            "question": "How many bones do sharks have?",
+            "choices": ["206", "1000", "50", "0"],
+            "correctAnswerIdx": 3
+        },
+        {
+            "question": "What is the longest running Broadway show?",
+            "choices": ["The Phantom of the Opera", "Wicked", "The Lion King", "Chicago (1996 revival)"],
+            "correctAnswerIdx": 0
+        }
+    ]
+}
