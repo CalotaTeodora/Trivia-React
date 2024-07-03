@@ -73,6 +73,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 If you have any questions or feedback, please feel free to reach out:
 
 - **Email**: calotateodora74@example.com
-- **Instagram**: [_teo.__.5]([https://github.com/your-username](https://www.instagram.com/_teo.__.5/))
+- **Instagram**: [[_teo.__.5](https://www.instagram.com/_teo.__.5/)]([https://github.com/your-username](https://www.instagram.com/_teo.__.5/))
 
 Happy coding! 😊
